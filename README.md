@@ -1,6 +1,6 @@
 # 구인구직웹 프로젝트
 
-DEVLOPMENT MOTIVATION
+:cd: DEVLOPMENT MOTIVATION
 ---
 > Recruit site
 > > -- 개발 동기 
