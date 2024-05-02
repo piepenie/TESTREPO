@@ -52,7 +52,7 @@
 ---
 <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github2&logoColor=white">
 
-:books: END POINT DOC
+:blue_book: END POINT DOC
 ---
 |URI|REQUEST METHOD|REQUEST PARAMETER TYPE|RESPONSE VALUE TYPE|DESCRIPTION|
 |---|---|---|---|---|
@@ -70,7 +70,7 @@
 |/offer/company/read|---|---|---|---|
 |---|---|---|---|---|
 
-DEPENDENCIES LIST
+:notebook_with_decorative_cover: DEPENDENCIES LIST
 ---
 |CAT|NAME|DESCRIPTION|LINK|-|-|
 |-|-|-|-|-|-|
@@ -81,12 +81,15 @@ DEPENDENCIES LIST
 |DB|-|-|-|-|-|
 |DEVOPS|-|-|-|-|-|
 
-ERD
+:dart: ERD
 ---
 
-FILE TREES
+<link>
+
+:page_with_curl: FILE TREES
 ---
 
+<>
 
 
 
