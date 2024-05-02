@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=&height=200&section=header&text=Recurit web%20Project&fontSize=90" />
+#구인구직웹 프로젝트
 
 DEVLOPMENT MOTIVATION
 ---
