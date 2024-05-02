@@ -52,7 +52,7 @@
 ---
 <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github2&logoColor=white">
 
-END POINT DOC
+:books: END POINT DOC
 ---
 |URI|REQUEST METHOD|REQUEST PARAMETER TYPE|RESPONSE VALUE TYPE|DESCRIPTION|
 |---|---|---|---|---|
