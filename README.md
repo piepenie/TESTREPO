@@ -1,5 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:ed9d0b,100:f94001&height=300&section=header&text=구인구직웹%20프로젝트&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Recruit%20project's%20GitHub%20Profile&descAlignY=51&descAlign=62&fontColor=ffffff"/>)
-
+(https://capsule-render.vercel.app/api?type=waving&color=0:ed9d0b,100:f94001&height=300&section=header&text=구인구직웹%20프로젝트&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Recruit%20project's%20GitHub%20Profile&descAlignY=51&descAlign=62&fontColor=ffffff"/>)
 
 # 구인구직웹 프로젝트
 
