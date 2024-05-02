@@ -89,8 +89,6 @@
 :page_with_curl: FILE TREES
 ---
 
-Windows 볼륨에 대한 폴더 경로의 목록입니다.
-볼륨 일련 번호는 B088-B8B1입니다.
 C:.
 │  .classpath
 │  .project
