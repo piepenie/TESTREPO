@@ -83,12 +83,7 @@
 
 :dart: ERD
 ---
-
-<link>
-
-:page_with_curl: FILE TREES
----
-
+```
 C:.
 │  .classpath
 │  .project
