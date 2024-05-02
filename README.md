@@ -13,4 +13,27 @@ HISTORY
 
 PLANS
 ---
-3
+ |LANGUAGE|PLAN|IMPLEMENT|DESCRIPTION|
+ |-|-|-|-|
+ |JAVA|-|-|-|
+ |JSP/SERVLET|2024/04/24 ~ 2024/04/28|-|-|
+ |SPRING STS3|-|-|-|
+ |SPRING BOOT|-|-|-|
+
+MEMBERERS
+--- 
+|NAME|ROLE|DETAILS|DESCRIPTION| 
+|---|---|---|---|
+|박민석|BN| /  / |---|
+|황보성현|BN|  -  /  / |---|
+|최원준|FN/BN| -  / |---|
+
+
+SKILLS
+---
+
+#### FN
+---
+
+#### BN
+---
