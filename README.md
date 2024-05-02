@@ -29,7 +29,7 @@ MEMBERERS
 |최원준|FN/BN| -  / |---|
 
 
-SKILLS
+:four_leaf_clover: SKILLS
 ---
 
 #### FN
