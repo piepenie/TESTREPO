@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=구인구직웹%20프로젝트%20render&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=wave&color=blue&height=200&section=header&text=%구인구직웹%20프로젝트%20render&fontSize=70)
 
 DEVLOPMENT MOTIVATION
 ---
