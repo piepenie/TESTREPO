@@ -92,7 +92,9 @@ DEPENDENCIES LIST
 |BN|DEVTOOLS| DEVTOOLS|org.springframework.boot:spring-boot-devtools|-|-|
 |BN|VALIDATOR| VALIDATOR|org.springframework.boot:spring-boot-starter-validation|-|-|
 |BN|OAUTH2-Client| OAUTH2-Client|org.springframework.boot:spring-boot-starter-oauth2-client|-|-|
-|BN|TX| TX|org.springframework:spring-tx|-|-|
+|BN|THUMNAILATOR| THUMNAILATOR|net.coobird:thumbnailator:0.4.20|-|-|
+|BN|REST| REST|com.fasterxml.jackson.core:jackson-databind|-|-|
+
 |DB|DBCONN BASIC| DBCONN BASIC|org.springframework.boot:spring-boot-starter-jdbc|-|-|
 |DEVOPS|-|-|-|-|-|
 
