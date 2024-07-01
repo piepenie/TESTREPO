@@ -94,7 +94,6 @@ DEPENDENCIES LIST
 |BN|OAUTH2-Client| OAUTH2-Client|org.springframework.boot:spring-boot-starter-oauth2-client|-|-|
 |BN|THUMNAILATOR| THUMNAILATOR|net.coobird:thumbnailator:0.4.20|-|-|
 |BN|REST| REST|com.fasterxml.jackson.core:jackson-databind|-|-|
-
 |DB|DBCONN BASIC| DBCONN BASIC|org.springframework.boot:spring-boot-starter-jdbc|-|-|
 |DEVOPS|-|-|-|-|-|
 
