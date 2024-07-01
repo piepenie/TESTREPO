@@ -106,136 +106,350 @@ FILE TREES[JSP/SERVLET]
 --- 
 ```
 C:.
-├─.gradle
-│  ├─8.7
-│  │  ├─checksums
-│  │  ├─dependencies-accessors
-│  │  ├─executionHistory
-│  │  ├─expanded
-│  │  ├─fileChanges
-│  │  ├─fileHashes
-│  │  └─vcsMetadata
-│  ├─buildOutputCleanup
-│  └─vcs-1
-├─.idea
+│  .gitignore
+│  build.gradle
+│  gradlew
+│  gradlew.bat
+│  settings.gradle
+│
 ├─gradle
 │  └─wrapper
-├─out
-│  └─production
-│      ├─classes
-│      │  └─com
-│      │      └─example
-│      │          ├─app
-│      │          │  └─controller
-│      │          └─jobKoreaIt
-│      │              ├─config
-│      │              │  └─auth
-│      │              │      ├─exceptionHandler
-│      │              │      ├─jwt
-│      │              │      ├─loginHandler
-│      │              │      ├─logoutHandler
-│      │              │      └─provider
-│      │              ├─controller
-│      │              │  └─user
-│      │              │      ├─offer
-│      │              │      └─seeker
-│      │              ├─domain
-│      │              │  ├─common
-│      │              │  │  ├─dto
-│      │              │  │  ├─entity
-│      │              │  │  ├─repository
-│      │              │  │  └─service
-│      │              │  ├─offer
-│      │              │  │  ├─dto
-│      │              │  │  ├─entity
-│      │              │  │  ├─repository
-│      │              │  │  └─service
-│      │              │  └─seeker
-│      │              │      ├─dto
-│      │              │      ├─entity
-│      │              │      ├─repository
-│      │              │      └─service
-│      │              └─properties
-│      └─resources
-│          ├─static
-│          │  ├─assets
-│          │  ├─css
-│          │  │  ├─community
-│          │  │  ├─mobile
-│          │  │  └─user
-│          │  └─js
-│          │      ├─community
-│          │      └─user
-│          └─templates
-│              ├─community
-│              ├─fragments
-│              ├─offer
-│              │  └─company
-│              ├─seeker
-│              │  └─resume
-│              └─user
+│          gradle-wrapper.jar
+│          gradle-wrapper.properties
+│
 └─src
     ├─main
-    │  ├─generated
     │  ├─java
     │  │  └─com
     │  │      └─example
     │  │          └─jobKoreaIt
+    │  │              │  devJava.java
+    │  │              │  JobKoreaItApplication.java
+    │  │              │  test1234.java
+    │  │              │
     │  │              ├─config
+    │  │              │  │  DataSourceConfig.java
+    │  │              │  │  MultipartConfig.java
+    │  │              │  │  SecurityConfig.java
+    │  │              │  │  TxConfig.java
+    │  │              │  │  WebMvcConfig.java
+    │  │              │  │
     │  │              │  └─auth
+    │  │              │      │  PrincipalDetails.java
+    │  │              │      │  PrincipalDetailsOAuth2Service.java
+    │  │              │      │  PrincipalDetailsService.java
+    │  │              │      │
     │  │              │      ├─exceptionHandler
+    │  │              │      │      CustomAccessDeniedHandler.java
+    │  │              │      │      CustomAuthenticationEntryPoint.java
+    │  │              │      │
     │  │              │      ├─jwt
+    │  │              │      │      JwtAuthorizationFilter.java
+    │  │              │      │      JwtProperties.java
+    │  │              │      │      JwtTokenProvider.java
+    │  │              │      │      KeyGenerator.java
+    │  │              │      │      TokenInfo.java
+    │  │              │      │
     │  │              │      ├─loginHandler
+    │  │              │      │      CustomAuthenticationFailureHandler.java
+    │  │              │      │      CustomLoginSuccessHandler.java
+    │  │              │      │
     │  │              │      ├─logoutHandler
+    │  │              │      │      CustomLogoutHandler.java
+    │  │              │      │      CustomLogoutSuccessHandler.java
+    │  │              │      │
     │  │              │      └─provider
+    │  │              │              GoogleUserInfo.java
+    │  │              │              KakaoUserInfo.java
+    │  │              │              NaverUserInfo.java
+    │  │              │              OAuth2UserInfo.java
+    │  │              │
     │  │              ├─controller
+    │  │              │  │  CommunityController.java
+    │  │              │  │  HomeController.java
+    │  │              │  │  NotificationController.java
+    │  │              │  │  RecruitController.java
+    │  │              │  │  UserController.java
+    │  │              │  │
     │  │              │  └─user
     │  │              │      ├─offer
+    │  │              │      │      jobOpeningController.java
+    │  │              │      │      OfferController.java
+    │  │              │      │
     │  │              │      └─seeker
+    │  │              │              ApplyController.java
+    │  │              │              JobSeekerController.java
+    │  │              │              JobSeekerRestController.java
+    │  │              │              ResumeController.java
+    │  │              │
     │  │              ├─domain
     │  │              │  ├─common
     │  │              │  │  ├─dto
+    │  │              │  │  │      CommunityDto.java
+    │  │              │  │  │      Criteria.java
+    │  │              │  │  │      PageDto.java
+    │  │              │  │  │      ReplyDto.java
+    │  │              │  │  │      UserDto.java
+    │  │              │  │  │
     │  │              │  │  ├─entity
+    │  │              │  │  │      Community.java
+    │  │              │  │  │      Reply.java
+    │  │              │  │  │      Signature.java
+    │  │              │  │  │      User.java
+    │  │              │  │  │
     │  │              │  │  ├─repository
+    │  │              │  │  │      CommunityRepository.java
+    │  │              │  │  │      ReplyRepository.java
+    │  │              │  │  │      UserRepository.java
+    │  │              │  │  │
     │  │              │  │  └─service
+    │  │              │  │          CommunityServiceImpl.java
+    │  │              │  │          RecruitServiceImpl.java
+    │  │              │  │          ReplyServiceImpl.java
+    │  │              │  │          UserServiceImpl.java
+    │  │              │  │
+    │  │              │  ├─Notification
+    │  │              │  │  ├─dto
+    │  │              │  │  │      notificationDto.java
+    │  │              │  │  │
+    │  │              │  │  ├─entity
+    │  │              │  │  │      NotifiEntity.java
+    │  │              │  │  │
+    │  │              │  │  ├─repository
+    │  │              │  │  │      NotifiRepository.java
+    │  │              │  │  │
+    │  │              │  │  └─service
+    │  │              │  │          NotifiService.java
+    │  │              │  │
     │  │              │  ├─offer
     │  │              │  │  ├─dto
+    │  │              │  │  │      CompanyDto.java
+    │  │              │  │  │      JobOfferDto.java
+    │  │              │  │  │      RecruitDto.java
+    │  │              │  │  │
     │  │              │  │  ├─entity
+    │  │              │  │  │      Company.java
+    │  │              │  │  │      JobOffer.java
+    │  │              │  │  │      Recruit.java
+    │  │              │  │  │
     │  │              │  │  ├─repository
+    │  │              │  │  │      CompanyRepository.java
+    │  │              │  │  │      JobOfferRepository.java
+    │  │              │  │  │      JobopeningRepository.java
+    │  │              │  │  │      RecruitRepository.java
+    │  │              │  │  │
     │  │              │  │  └─service
+    │  │              │  │          JobOfferServiceImpl.java
+    │  │              │  │          jobopeningServicelmpl.java
+    │  │              │  │
     │  │              │  └─seeker
     │  │              │      ├─dto
+    │  │              │      │      ApplyDto.java
+    │  │              │      │      CarrerDto.java
+    │  │              │      │      CertificationDto.java
+    │  │              │      │      JobSeekerDto.java
+    │  │              │      │      ResumeDto.java
+    │  │              │      │      ResumeFormDto.java
+    │  │              │      │
     │  │              │      ├─entity
+    │  │              │      │      Apply.java
+    │  │              │      │      Carrer.java
+    │  │              │      │      Certification.java
+    │  │              │      │      JobSeeker.java
+    │  │              │      │      Resume.java
+    │  │              │      │
     │  │              │      ├─repository
+    │  │              │      │      ApplyRepository.java
+    │  │              │      │      CareerRepository.java
+    │  │              │      │      CertificationRepository.java
+    │  │              │      │      JobSeekerRepository.java
+    │  │              │      │      ResumeRepository.java
+    │  │              │      │
     │  │              │      └─service
+    │  │              │              ApplyServiceImpl.java
+    │  │              │              JobSeekerServiceImpl.java
+    │  │              │              ResumeServiceImpl.java
+    │  │              │
     │  │              └─properties
+    │  │                      AUTH.java
+    │  │                      DBCONN.java
+    │  │                      UPLOADPATH.java
+    │  │
     │  └─resources
+    │      │  application.properties
+    │      │  data.sql
+    │      │
     │      ├─static
     │      │  ├─assets
+    │      │  │  │  check.svg
+    │      │  │  │  facebookicon.png
+    │      │  │  │  githublogo.png
+    │      │  │  │  instraicon.png
+    │      │  │  │  logo.gif
+    │      │  │  │  logo.png
+    │      │  │  │  logo_2.png
+    │      │  │  │
+    │      │  │  └─sample
+    │      │  │          05_edu_img_240620_01.png
+    │      │  │          05_edu_img_240620_02.png
+    │      │  │          05_edu_img_240620_03.png
+    │      │  │          05_edu_img_240620_04.png
+    │      │  │          05_edu_img_240620_05.png
+    │      │  │          05_edu_img_240620_06.png
+    │      │  │          05_edu_img_240620_07.png
+    │      │  │
     │      │  ├─css
+    │      │  │  │  common.css
+    │      │  │  │  index.css
+    │      │  │  │
     │      │  │  ├─community
+    │      │  │  │      add.css
+    │      │  │  │      delete.css
+    │      │  │  │      index.css
+    │      │  │  │      list.css
+    │      │  │  │      read.css
+    │      │  │  │      update.css
+    │      │  │  │
     │      │  │  ├─mobile
+    │      │  │  │      common.css
+    │      │  │  │
+    │      │  │  ├─notification
+    │      │  │  │      add.css
+    │      │  │  │      list.css
+    │      │  │  │      read.css
+    │      │  │  │      update.css
+    │      │  │  │
+    │      │  │  ├─offer
+    │      │  │  │  │  myinfo.css
+    │      │  │  │  │
+    │      │  │  │  └─jobopening
+    │      │  │  │          add.css
+    │      │  │  │          applylist.css
+    │      │  │  │
+    │      │  │  ├─recruit
+    │      │  │  │      list.css
+    │      │  │  │      req.css
+    │      │  │  │
+    │      │  │  ├─seeker
+    │      │  │  │  │  myinfo.css
+    │      │  │  │  │
+    │      │  │  │  └─resume
+    │      │  │  │          add.css
+    │      │  │  │
     │      │  │  └─user
+    │      │  │          confirm_id.css
+    │      │  │          confirm_pw.css
+    │      │  │          join.css
+    │      │  │          login.css
+    │      │  │
     │      │  └─js
+    │      │      │  common.js
+    │      │      │  index.js
+    │      │      │
     │      │      ├─community
+    │      │      │      add.js
+    │      │      │      delete.js
+    │      │      │      index.js
+    │      │      │      list.js
+    │      │      │      read.js
+    │      │      │      update.js
+    │      │      │
+    │      │      ├─offer
+    │      │      │  └─jobopening
+    │      │      │          add.js
+    │      │      │          applylist.js
+    │      │      │
+    │      │      ├─recruit
+    │      │      │      req.js
+    │      │      │
+    │      │      ├─seeker
+    │      │      │  └─resume
+    │      │      │          add.js
+    │      │      │
     │      │      └─user
+    │      │              confirm_id.js
+    │      │              confirm_pw.js
+    │      │              join.js
+    │      │              login.js
+    │      │
     │      └─templates
+    │          │  index.html
+    │          │  login.html
+    │          │  template_mainPage.html
+    │          │  template_subPage.html
+    │          │
     │          ├─community
+    │          │      add.html
+    │          │      delete.html
+    │          │      index.html
+    │          │      list.html
+    │          │      read.html
+    │          │      update.html
+    │          │
     │          ├─fragments
+    │          │      footer.html
+    │          │      link.html
+    │          │      nav.html
+    │          │      top_header.html
+    │          │
+    │          ├─notification
+    │          │      add.html
+    │          │      list.html
+    │          │      read.html
+    │          │      update.html
+    │          │
     │          ├─offer
-    │          │  └─company
+    │          │  ├─company
+    │          │  │      add.html
+    │          │  │      delete.html
+    │          │  │      read.html
+    │          │  │      update.html
+    │          │  │
+    │          │  ├─jobopening
+    │          │  │      add.html
+    │          │  │      applylist.html
+    │          │  │      delete.html
+    │          │  │      list.html
+    │          │  │      update.html
+    │          │  │
+    │          │  └─myinfo
+    │          │          read.html
+    │          │          update.html
+    │          │
+    │          ├─recruit
+    │          │      list.html
+    │          │      req.html
+    │          │
     │          ├─seeker
+    │          │  │  main.html
+    │          │  │
+    │          │  ├─myinfo
+    │          │  │      read.html
+    │          │  │
     │          │  └─resume
+    │          │          add.html
+    │          │          list.html
+    │          │          read.html
+    │          │          update.html
+    │          │
     │          └─user
+    │                  confirm_id.html
+    │                  confirm_pw.html
+    │                  join.html
+    │                  myinfo.html
+    │
     └─test
+        │  schema.sql
+        │
         └─java
             └─com
                 └─example
                     └─jobKoreaIt
+                        │  JobKoreaItApplicationTests.java
+                        │
                         └─domain
-                            └─seeker
+                            └─common
                                 └─repository
-                            join.jsp
-                            login.jsp
+                                        CommunityRepositoryTest.java
 ```
 ---
