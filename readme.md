@@ -59,8 +59,9 @@ END POINT DOC
 ---
 |URI|REQUEST METHOD|DESCRIPTION|
 |---|---|---|
-|/user/confirmid|GET/POST|---|
-|/user/confirmpw|GET/POST|---|
+|/user/join|POST|회원가입을 합니다. 회원가입은 구직자, 채용자(기업가)로 나눠서 가입할 수 있습니다.|
+|/user/confirmid|GET/POST|회원 아이디를 확인하는 서비스입니다.|
+|/user/confirmpw|GET/POST|회원 비밀번호를 확인하는 서비스입니다.|
 |---|---|---|
 |/seeker/resume/add|GET/POST|---|
 |/seeker/resume/update|GET/POST|---|
