@@ -9,7 +9,7 @@ DEVELOPMENT MOTIVATION
 
 HISTORY
 ---
-[TOTAL](DOCUMENT/HISTORY/TOTAL) | [나재현](DOCUMENT/HISTORY/나재현) | [이동환](DOCUMENT/HISTORY/이동환) | [박정현](DOCUMENT/HISTORY/박정현) | [최원준](https://github.com/piepenie) |
+[TOTAL](DOCUMENT/HISTORY/TOTAL) | [나재현](https://github.com/Najaehyun0913) | [이동환](https://github.com/donghwan12) | [박정현](https://github.com/niangsoul) | [최원준](https://github.com/piepenie) |
 
 
 PLANS
@@ -69,13 +69,16 @@ END POINT DOC
 |/seeker/resume/list|GET|구직자가 작성된 이력서들의 목록을 조회합니다.|
 |/seeker/delete|GET/POST|구직자가 작성된 이력서를 삭제합니다.|
 |---|---|---
-|/offer/company/add|GET/POST|채용자가 회사정보를 |
-|/offer/company/read|GET||
-|/offer/company/delete|GET/POST|---|
-|/offer/company/update|GET/POST|---|
+|/offer/company/add|GET/POST|채용자가 기업 정보를 추가합니다.|
+|/offer/company/read|GET|채용자의 기업 정보를 조회합니다.|
+|/offer/company/delete|GET/POST|채용자가 기업 정보를 삭제합니다.|
+|/offer/company/update|GET/POST|채용자가 기업 정보를 수정합니다.|
 |---|---|---|
-|/offer/jobopening/read|GET|---|
-|/offer/jobopening/add|GET/POST|---|
+|/offer/jobopening/read|GET|채용자가 채용 공고를 조회합니다.|
+|/offer/jobopening/add|GET/POST|채용자가 채용 공고를 추가합니다|
+|/offer/jobopening/list|GET|채용자가 채용 공고를 조회합니다.|
+|/offer/jobopening/update|GET/POST|채용자가 채용 공고를 수정합니다.|
+|/offer/jobopening/delete|DELETE|채용자가 채용 공고를 삭제합니다.|
 |---|---|---|
 |/community/add|GET/POST|커뮤니티 게시판에 게시물을 작성합니다.|
 |/community/list|GET|커뮤니티 게시판의 목록을 조회합니다.|
@@ -83,6 +86,7 @@ END POINT DOC
 |/community/update|GET/POST|커뮤니티 게시글을 수정합니다.|
 |/community/delete|GET/POST|커뮤니티 게시글을 삭제합니다.|
 |/community/reply/add|GET|커뮤니티 게시물에 답글을 작성합니다.|
+
 
 DEPENDENCIES LIST
 ---
@@ -101,7 +105,6 @@ DEPENDENCIES LIST
 |BN|THUMNAILATOR| THUMNAILATOR|net.coobird:thumbnailator:0.4.20|-|-|
 |BN|REST| REST|com.fasterxml.jackson.core:jackson-databind|-|-|
 |DB|DBCONN BASIC| DBCONN BASIC|org.springframework.boot:spring-boot-starter-jdbc|-|-|
-|DEVOPS|-|-|-|-|-|
 
 
 ERD[KoreaJobDb]
