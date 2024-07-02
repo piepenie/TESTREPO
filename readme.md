@@ -70,12 +70,19 @@ END POINT DOC
 |/seeker/delete|GET/POST|구직자가 작성된 이력서를 삭제합니다.|
 |---|---|---
 |/offer/company/add|GET/POST|채용자가 회사정보를 |
-|/offer/company/read|GET|---|
+|/offer/company/read|GET||
 |/offer/company/delete|GET/POST|---|
 |/offer/company/update|GET/POST|---|
 |---|---|---|
 |/offer/jobopening/read|GET|---|
 |/offer/jobopening/add|GET/POST|---|
+|---|---|---|
+|/community/add|GET/POST|커뮤니티 게시판에 게시물을 작성합니다.|
+|/community/list|GET|커뮤니티 게시판의 목록을 조회합니다.|
+|/community/read|GET|커뮤니티 게시글을 조회합니다.|
+|/community/update|GET/POST|커뮤니티 게시글을 수정합니다.|
+|/community/delete|GET/POST|커뮤니티 게시글을 삭제합니다.|
+|/community/reply/add|GET|커뮤니티 게시물에 답글을 작성합니다.|
 
 DEPENDENCIES LIST
 ---
