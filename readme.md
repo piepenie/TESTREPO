@@ -57,26 +57,26 @@ SKILLS
 
 END POINT DOC
 ---
-|URI|REQUEST METHOD|REQUEST PARAMETER TYPE|RESPONSE VALUE TYPE|DESCRIPTION|
-|---|---|---|---|---|
-|/user/confirmid|GET/POST|NICKNAME POHNE TYPE|String|---|
-|/user/confirmpw|GET/POST|NICKNAME USERNAME PHONE|String|---|
-|---|---|---|---|---|
-|/seeker/resume/add|GET/POST|form|String|---|
-|/seeker/resume/update|GET/POST|ID|String|---|
-|/seeker/resume/read|GET|ID|String|---|
-|/seeker/resume/list|GET|---|String|---|
-|/seeker/delete|GET/POST|ID|String|---|
-|---|---|---|---|---|
-|/offer/join|GET|---|void|---|
-|---|---|---|---|---|
-|/offer/company/add|GET/POST|McodelAttribute<br>CompanyDto|void String|---|
-|/offer/company/read|GET|Model|void String|---|
-|/offer/company/delete|GET/POST|ID|String|---|
-|/offer/company/update|GET/POST|ModelAttribute<br>Company|void|---|
-|---|---|---|---|---|
-|/offer/jobopening/read|GET|---|void|---|
-|/offer/jobopening/add|GET/POST|---|void|---|
+|URI|REQUEST METHOD|DESCRIPTION|
+|---|---|---|
+|/user/confirmid|GET/POST|---|
+|/user/confirmpw|GET/POST|---|
+|---|---|---|
+|/seeker/resume/add|GET/POST|---|
+|/seeker/resume/update|GET/POST|---|
+|/seeker/resume/read|GET|---|
+|/seeker/resume/list|GET|---|
+|/seeker/delete|GET/POST|---|
+|---|---|---|
+|/offer/join|GET|---|
+|---|---|---|
+|/offer/company/add|GET/POST|---|
+|/offer/company/read|GET|---|
+|/offer/company/delete|GET/POST|---|
+|/offer/company/update|GET/POST|---|
+|---|---|---|
+|/offer/jobopening/read|GET|---|
+|/offer/jobopening/add|GET/POST|---|
 
 DEPENDENCIES LIST
 ---
